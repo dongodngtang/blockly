@@ -1,0 +1,27 @@
+
+<svg width="17px" height="18px" viewBox="0 0 17 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备" transform="translate(-7492.000000, -2228.000000)" fill="#999">
+            <g id="坐标" transform="translate(7454.000000, 2224.000000)">
+                <g id="坐标-2">
+                    <g id="笛卡尔坐标" transform="translate(34.000000, 0.000000)">
+                        <g id="组_46" transform="translate(4.000000, 3.000000)">
+                            <path d="M1.356,15.288 L10.575,15.288 L10.575,16.226 L1.356,16.226 L1.356,15.288 Z M11.497,15.753 L8.727,17.17 L8.727,14.336 L11.497,15.753 Z" id="多边形_811"></path>
+                            <path d="M1.806,15.313 L9.115,9.562 L9.678,10.309 L2.368,16.06 L1.806,15.313 Z M10.138,9.358 L8.789,12.208 L7.096,9.962 L10.138,9.358 Z" id="多边形_811_拷贝"></path>
+                            <path d="M1.356,5.788 L2.231,5.788 L2.231,15.2 L1.356,15.2 L1.356,5.793 L1.356,5.788 Z M1.806,4.829 L3.193,7.659 L0.418,7.659 L1.806,4.829 Z" id="多边形_811_拷贝_2"></path>
+                            <text id="X" font-family="Helvetica" font-size="6.451" font-weight="normal">
+                                <tspan x="12.213" y="18.225">X</tspan>
+                            </text>
+                            <text id="Y" font-family="Helvetica" font-size="6.451" font-weight="normal">
+                                <tspan x="2.144" y="6.063">Y</tspan>
+                            </text>
+                            <text id="Z" font-family="Helvetica" font-size="6.451" font-weight="normal">
+                                <tspan x="10.552" y="9.854">Z</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

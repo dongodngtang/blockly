@@ -1,0 +1,148 @@
+@import "../../css/units.css";
+@import "../../css/colors.css";
+@import "../../css/z-index.css";
+
+.card-container {
+  position:absolute;
+  z-index: $z-index-card;
+  margin: 0.5rem 2rem;
+}
+
+.card {
+  border: 1px solid $ui-tertiary;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  cursor: move;
+  z-index: 20;
+  overflow: hidden;
+  box-shadow: 0px 5px 25px 5px $ui-black-transparent;
+  align-items: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 400px;
+  height: 240px;
+}
+
+.header-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: $ui-border;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+.remove-button, .all-button {
+  cursor: pointer;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: transparent;
+  border: none;
+}
+
+.remove-button:hover, .all-button:hover {
+  background-color: $ui-black-transparent;
+}
+
+.card-body {
+  background: $ui-white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 438px;
+  padding: 10px;
+  cursor: default;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.btn-recording{
+  padding: 5px 5px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.paly-recording{
+  position: absolute;
+  top: 22px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px 5px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .7)
+}
+
+.acoustic_img{
+  width: 350px;
+}
+
+.recording{
+  margin: 0;
+  margin-top: 10px;
+}
+.operation{
+  font-size: 14px;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.recording-text{
+  position: relative;
+  top: 10px;
+  width: 100%;
+  text-align: left;
+  margin-left: 10px;
+}
+
+
+.load-wrapp {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  height: 25px;
+  text-align: center;
+}
+
+.letter {
+  float: left;
+  animation-name: loadingF;
+  animation-duration: 1.6s;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.lettera {animation-delay: .48s;}
+.letterb {animation-delay: .6s;}
+.letterc {animation-delay: .72s;}
+.letterd {animation-delay: .84s;}
+.lettere {animation-delay: .96s;}
+.letterf {animation-delay: 1.08s;}
+.letterg {animation-delay: 1.2s;}
+.letterh {animation-delay: 1.32s;}
+.letteri {animation-delay: 1.44s;}
+.letterj {animation-delay: 1.56s;}
+
+@keyframes loadingF {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>config.isLogging</key>
+	<true/>
+	<key>config.showOnTop</key>
+	<true/>
+	<key>config.showSystemTrayOnStart</key>
+	<true/>
+	<key>plugin.ArduinoPlugin</key>
+	<true/>
+	<key>plugin.DownloadPlugin</key>
+	<true/>
+	<key>plugin.IndustrialRobotPlugin</key>
+	<false/>
+	<key>plugin.MagicDevicePlugin</key>
+	<true/>
+	<key>plugin.MicrobitPlugin</key>
+	<false/>
+	<key>version.ArduinoPlugin</key>
+	<string>1.0.0</string>
+	<key>version.DownloadPlugin</key>
+	<string>1.0.0</string>
+	<key>version.IndustrialRobotPlugin</key>
+	<string>1.0.0</string>
+	<key>version.MagicDevicePlugin</key>
+	<string>3.2.3(protocal:3.4.1)</string>
+	<key>version.MicrobitPlugin</key>
+	<string>x</string>
+	<key>version.main</key>
+	<string>5.5.5</string>
+</dict>
+</plist>

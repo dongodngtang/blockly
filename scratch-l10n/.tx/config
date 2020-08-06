@@ -1,0 +1,216 @@
+[main]
+host = https://www.transifex.com
+lang_map = zh_CN:zh-cn, zh_TW:zh-tw, pt_BR:pt-br, es_419:es-419, aa_DJ:aa-dj
+
+[scratch-editor.blocks]
+file_filter = editor/blocks/<lang>.json
+source_file = editor/blocks/en.json
+source_lang = en
+type = CHROME
+[scratch-editor.extensions]
+file_filter = editor/extensions/<lang>.json
+source_file = editor/extensions/en.json
+source_lang = en
+type = CHROME
+[scratch-editor.interface]
+file_filter = editor/interface/<lang>.json
+source_file = editor/interface/en.json
+source_lang = en
+type = CHROME
+[scratch-editor.paint-editor]
+file_filter = editor/paint-editor/<lang>.json
+source_file = editor/paint-editor/en.json
+source_lang = en
+type = CHROME
+
+[scratch-website.3faq-l10njson]
+file_filter = www/scratch-website.3faq-l10njson/<lang>.json
+source_file = www/scratch-website.3faq-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.about-l10njson]
+file_filter = www/scratch-website.about-l10njson/<lang>.json
+source_file = www/scratch-website.about-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.camp-l10njson]
+file_filter = www/scratch-website.camp-l10njson/<lang>.json
+source_file = www/scratch-website.camp-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.conference-index-2017-l10njson]
+file_filter = www/scratch-website.conference-index-2017-l10njson/<lang>.json
+source_file = www/scratch-website.conference-index-2017-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.conference-index-l10njson]
+file_filter = www/scratch-website.conference-index-l10njson/<lang>.json
+source_file = www/scratch-website.conference-index-l10njson/index/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.credits-l10njson]
+file_filter = www/scratch-website.credits-l10njson/<lang>.json
+source_file = www/scratch-website.credits-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.developers-l10njson]
+file_filter = www/scratch-website.developers-l10njson/<lang>.json
+source_file = www/scratch-website.developers-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.dmca-l10njson]
+file_filter = www/scratch-website.dmca-l10njson/<lang>.json
+source_file = www/scratch-website.dmca-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.download-l10njson]
+file_filter = www/scratch-website.download-l10njson/<lang>.json
+source_file = www/scratch-website.download-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.download-scratch2-l10njson]
+file_filter = www/scratch-website.download-scratch2-l10njson/<lang>.json
+source_file = www/scratch-website.download-scratch2-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.educator-landing-l10njson]
+file_filter = www/scratch-website.educator-landing-l10njson/<lang>.json
+source_file = www/scratch-website.educator-landing-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.ev3-l10njson]
+file_filter = www/scratch-website.ev3-l10njson/<lang>.json
+source_file = www/scratch-website.ev3-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.explore-l10njson]
+file_filter = www/scratch-website.explore-l10njson/<lang>.json
+source_file = www/scratch-website.explore-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.faq-l10njson]
+file_filter = www/scratch-website.faq-l10njson/<lang>.json
+source_file = www/scratch-website.faq-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.general-l10njson]
+file_filter = www/scratch-website.general-l10njson/<lang>.json
+source_file = www/scratch-website.general-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.guidelines-l10njson]
+file_filter = www/scratch-website.guidelines-l10njson/<lang>.json
+source_file = www/scratch-website.guidelines-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.ideas-l10njson]
+file_filter = www/scratch-website.ideas-l10njson/<lang>.json
+source_file = www/scratch-website.ideas-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.jobs-l10njson]
+file_filter = www/scratch-website.jobs-l10njson/<lang>.json
+source_file = www/scratch-website.jobs-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.messages-l10njson]
+file_filter = www/scratch-website.messages-l10njson/<lang>.json
+source_file = www/scratch-website.messages-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.microbit-l10njson]
+file_filter = www/scratch-website.microbit-l10njson/<lang>.json
+source_file = www/scratch-website.microbit-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.parents-l10njson]
+file_filter = www/scratch-website.parents-l10njson/<lang>.json
+source_file = www/scratch-website.parents-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.preview-faq-l10njson]
+file_filter = www/scratch-website.preview-faq-l10njson/<lang>.json
+source_file = www/scratch-website.preview-faq-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.preview-l10njson]
+file_filter = www/scratch-website.preview-l10njson/<lang>.json
+source_file = www/scratch-website.preview-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.research-l10njson]
+file_filter = www/scratch-website.research-l10njson/<lang>.json
+source_file = www/scratch-website.research-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.scratch_14-l10njson]
+file_filter = www/scratch-website.scratch_14-l10njson/<lang>.json
+source_file = www/scratch-website.scratch_14-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.search-l10njson]
+file_filter = www/scratch-website.search-l10njson/<lang>.json
+source_file = www/scratch-website.search-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.splash-l10njson]
+file_filter = www/scratch-website.splash-l10njson/<lang>.json
+source_file = www/scratch-website.splash-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.teacher-faq-l10njson]
+file_filter = www/scratch-website.teacher-faq-l10njson/<lang>.json
+source_file = www/scratch-website.teacher-faq-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.teacherregistration-l10njson]
+file_filter = www/scratch-website.teacherregistration-l10njson/<lang>.json
+source_file = www/scratch-website.teacherregistration-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.tips-l10njson]
+file_filter = www/scratch-website.tips-l10njson/<lang>.json
+source_file = www/scratch-website.tips-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.wedo2-l10njson]
+file_filter = www/scratch-website.wedo2-l10njson/<lang>.json
+source_file = www/scratch-website.wedo2-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON
+
+[scratch-website.wedo2-legacy-l10njson]
+file_filter = www/scratch-website.wedo2-legacy-l10njson/<lang>.json
+source_file = www/scratch-website.wedo2-legacy-l10njson/en.json
+source_lang = en
+type = KEYVALUEJSON

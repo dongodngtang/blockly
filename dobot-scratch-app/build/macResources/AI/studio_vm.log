@@ -1,0 +1,17 @@
+2020-05-11 10:48:49,725 - INFO     - [MainThread] __main__[203]: Current Version: v-0.1.2
+2020-05-11 10:48:49,730 - DEBUG    - [MainThread] IOComponent.DobotJsonRpc[70]: Server(0.0.0.0:9092) startup
+2020-05-11 10:48:52,055 - INFO     - [MainThread] __main__[203]: Current Version: v-0.1.2
+2020-05-11 10:49:11,649 - INFO     - [MainThread] IOComponent.DobotJsonRpc[151]: New websocket connect from ('127.0.0.1', 50261)
+2020-05-11 10:49:12,653 - INFO     - [MainThread] IOComponent.DobotJsonRpc[151]: New websocket connect from ('127.0.0.1', 50263)
+2020-05-11 10:49:46,597 - WARNING  - [MainThread] IOComponent.DobotJsonRpc[179]: ui disconnected: code = 1006 (connection closed abnormally [internal]), no reason
+2020-05-11 10:49:46,605 - WARNING  - [MainThread] IOComponent.DobotJsonRpc[179]: ui disconnected: code = 1006 (connection closed abnormally [internal]), no reason
+2020-05-11 10:49:54,071 - INFO     - [MainThread] __main__[203]: Current Version: v-0.1.2
+2020-05-11 10:50:16,568 - INFO     - [MainThread] __main__[203]: Current Version: v-0.1.2
+2020-05-11 10:50:16,570 - DEBUG    - [MainThread] IOComponent.DobotJsonRpc[70]: Server(0.0.0.0:9092) startup
+2020-05-11 10:50:32,812 - INFO     - [MainThread] IOComponent.DobotJsonRpc[151]: New websocket connect from ('127.0.0.1', 50321)
+2020-05-11 10:50:33,814 - INFO     - [MainThread] IOComponent.DobotJsonRpc[151]: New websocket connect from ('127.0.0.1', 50323)
+2020-05-11 11:28:18,058 - DEBUG    - [MainThread] __main__[162]: Quit
+2020-06-19 11:37:38,306 - INFO     - [MainThread] __main__[203]: Current Version: v-0.1.2
+2020-06-19 11:37:38,309 - DEBUG    - [MainThread] IOComponent.DobotJsonRpc[70]: Server(0.0.0.0:9092) startup
+2020-06-19 11:50:45,553 - INFO     - [MainThread] IOComponent.DobotJsonRpc[151]: New websocket connect from ('127.0.0.1', 64420)
+2020-06-19 11:50:46,522 - INFO     - [MainThread] IOComponent.DobotJsonRpc[151]: New websocket connect from ('127.0.0.1', 64427)

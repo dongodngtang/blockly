@@ -1,0 +1,41 @@
+@import "../../css/units.css";
+@import "../../css/colors.css";
+
+.target-pane {
+    /* Makes columns for the sprite library selector + and the stage selector */
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.stage-selector-wrapper {
+    display: flex;
+    flex-basis: 72px;
+    flex-shrink: 0;
+    margin-bottom: $margin-bottom;
+    border: $normal-border;
+    border-radius: $border-radius;
+}
+.device-selector-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: $ui-secondary;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 10px;
+    border: 4px solid #209BFA;
+    background: #209BFA;
+    border-left: none;
+    border-radius: 0 4px 4px 0px;
+    width: 0;
+    overflow: hidden;
+}
+
+[dir="ltr"] .stage-selector-wrapper {
+    margin-left: calc($space / 2);
+}
+
+[dir="rtl"] .stage-selector-wrapper {
+    margin-right: calc($space / 2);
+}

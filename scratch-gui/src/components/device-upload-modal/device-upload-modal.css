@@ -1,0 +1,21 @@
+@import "../../css/colors.css";
+
+.yellow-button {
+    background: $yellow-primary;
+}
+
+.bottom-area {
+    background-color: $ui-white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: .75rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.choosed-port {
+    background-color: lightgrey !important;
+}

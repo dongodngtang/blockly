@@ -1,0 +1,44 @@
+{
+    "name": "dobot-scratch",
+    "version": "1.0.0",
+    "license": "MIT",
+    "main": "main.js",
+    "scripts": {
+        "install:blocks": "cd scratch-blocks && yarn && yarn webpack",
+        "install:l10n": "cd scratch-l10n && yarn && yarn build",
+        "install:vm": "cd scratch-vm && yarn",
+        "install:gui": "cd scratch-gui && yarn",
+        "install:gui:ex": "yarn install:vm && yarn install:l10n && yarn build:blocks && yarn build:l10n && yarn build:vm && yarn install:gui",
+        "install:app": "cd dobot-scratch-app && yarn",
+        "install:all": "yarn & yarn install:vm & yarn install:l10n & yarn install:blocks & yarn install:app && yarn install:gui",
+        "link:blocks": "cd scratch-blocks && yarn link && cd ../scratch-gui && yarn link scratch-blocks",
+        "link:l10n": "cd scratch-l10n && yarn link && cd ../scratch-gui && yarn link scratch-l10n",
+        "link:vm": "cd scratch-vm && yarn link && cd ../scratch-gui && yarn link scratch-vm",
+        "link:all": "yarn link:blocks && yarn link:l10n && yarn link:vm",
+        "unlink:blocks": "yarn unlink scratch-blocks && cd scratch-blocks && yarn unlink",
+        "unlink:l10n": "yarn unlink scratch-l10n && cd scratch-l10n && yarn unlink",
+        "unlink:vm": "yarn unlink scratch-vm && cd scratch-vm && yarn unlink",
+        "unlink:all": "yarn unlink:blocks && yarn unlink:l10n && yarn unlink:vm",
+        "build:l10n": "cd scratch-l10n && yarn build",
+        "build:gui:ele": "yarn build:gui && rimraf ./dobot-scratch-app/to-build && node copy-file.js ./scratch-gui/electron ./dobot-scratch-app/to-build",
+        "build:gui": "cd scratch-gui && yarn && yarn build",
+        "build": "yarn build:l10n && yarn build:gui:ele && cd dobot-scratch-app && yarn build",
+        "start": "yarn link:all && cd scratch-gui && yarn start",
+        "setup": "yarn install:gui:ex && yarn build:gui && yarn install:app && yarn build:app",
+        "lint:gui": "cd ./scratch-gui && yarn test:lint",
+        "lint:vm": "cd ./scratch-vm && yarn lint",
+        "lint:blocks": "cd ./scratch-blocks && yarn test:lint",
+        "lint:l10n": "cd ./scratch-l10n && yarn lint",
+        "lint": "yarn lint:gui && yarn lint:vm && yarn lint:blocks && yarn lint:l10n",
+        "clean": "cd scratch-gui && yarn clean:yarn"
+    },
+    "devDependencies": {
+        "happypack": "^5.0.1",
+        "husky": "^3.0.1",
+        "ssh2": "latest"
+    },
+    "dependencies": {
+        "compression-webpack-plugin": "^2.0.0",
+        "cross-env": "^5.2.0"
+    }
+}

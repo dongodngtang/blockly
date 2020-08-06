@@ -1,0 +1,142 @@
+@import "../../../css/units.css";
+@import "../../../css/colors.css";
+@import "../../../css/z-index.css";
+
+.card-container {
+    z-index: $z-index-card;
+    margin: 0.5rem 2rem;
+  }
+  
+  .card {
+    border: 1px solid $ui-tertiary;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    cursor: move;
+    z-index: 20;
+    overflow: hidden;
+    box-shadow: 0px 5px 25px 5px $ui-black-transparent;
+    align-items: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 680px;
+  }
+  
+  .header-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: $ui-border;
+    font-size: .75rem;
+    font-weight: bold;
+  }
+  
+  .remove-button, .all-button {
+    cursor: pointer;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .remove-button:hover, .all-button:hover {
+    background-color: $ui-black-transparent;
+  }
+  
+  .card-body {
+    background: $ui-white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    cursor: default;
+  }
+  
+  .card-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .help-icon {
+    height: 1.25rem;
+    margin-right: 5px;
+  }
+  .show-photo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: $ui-border;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .show-photo video{
+    background-color: rgb(161, 161, 161);
+    margin-left: -88px;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn{
+    width: 100px;
+    padding: 5px;
+    border-color: #fff;
+    background-color: $ui-border ;
+    border:1px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+  }
+
+  .btn:active, .open>.dropdown-toggle.update-btn {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+  }
+  .text{
+    color: #fff;
+  }
+  .thumbnail-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 5px 0 0 0;
+    max-height: 290px;
+    overflow: auto;
+  }
+  .thumbnail-list li{
+    list-style: none;
+    width: 100%;
+    margin: 5px 0;
+    background-color: $ui-border;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 80px
+  }
+  .thumbnail-list li img{
+    width: 100px;
+    height: 75px;
+  }
+  .thumbnail-list li .distinguish{
+    margin-right: 20px;
+  }
+  .thumbnail-list li .distinguish p{
+    margin: 5px;
+    text-align: left;
+    color: #fff;
+  }

@@ -1,0 +1,47 @@
+:global(.categorySelected):before {
+  content: ' ';
+  display: inline-block;
+  width: 1px;
+  height: 39px;
+  position: fixed;
+  background: #f9f9f9;
+  margin-left: 105px;
+}
+:global(button) {
+  background: white;
+}
+:global(*)::-webkit-scrollbar-thumb {
+    width: 1px;
+    background: grey;
+}
+
+:global(*)::-webkit-scrollbar-thumb {
+    width: 1px;
+    background: grey;
+}
+:global(.Popover) {
+  z-index: 100;
+}
+:global(body) {
+  overflow: hidden;
+}
+:global(.blocklyWidgetDiv) {
+  display: none;
+  position: absolute;
+  z-index: 999; /* big value for bootstrap3 compatibility */
+}
+:global(.ace-solarized-light) {
+  background-color: white;
+}
+:global(.ace-solarized-light .ace_gutter) {
+  background-color: white;
+}
+:global(.ace_folding-enabled > .ace_gutter-cell) {
+  color: #5c5c5c;
+}
+:global(.ace-solarized-light .ace_marker-layer .ace_active-line) {
+  background-color: rgba(254, 229, 201, 0.3);
+}
+:global(.ace-solarized-light .ace_gutter-active-line) {
+  background-color: rgba(254, 229, 201, 0.3);
+}

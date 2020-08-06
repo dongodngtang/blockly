@@ -1,0 +1,9 @@
+.right-holder {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 100;
+}
+.right-holder :active{
+  cursor :move
+}

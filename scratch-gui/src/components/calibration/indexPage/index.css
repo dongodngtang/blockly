@@ -1,0 +1,28 @@
+@import '../../../css/colors.css';
+.index-page {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.image-wrapper {
+  height: 250px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  cursor: pointer;
+}
+.index-page .selected::after {
+  content: '';
+  width: 224px;
+  height: 224px;
+  border: 1px solid red;
+  border-radius: 4px;
+  position: absolute;
+  top: -12px;
+  left: -12px;
+}

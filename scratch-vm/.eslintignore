@@ -1,0 +1,6 @@
+coverage/*
+dist/*
+node_modules/*
+playground/*
+benchmark/*
+tencentcloud-sdk-nodejs

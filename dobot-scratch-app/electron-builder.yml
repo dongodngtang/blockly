@@ -1,0 +1,48 @@
+directories:
+  output: ./dist
+appId: com.electron.DobotScratchSetup
+asar: false
+copyright: Dobot.cc © Copyright 2020. All Rights Reserved
+productName: DobotBlock
+mac:
+  target:
+    - dmg
+  icon: ./icon.icns
+dmg:
+  contents:
+    - x: 130
+      'y': 50
+      type: dir
+      name: Driver
+      path: build/macResources/Driver/Mac
+    - x: 130
+      'y': 210
+    - x: 400
+      'y': 210
+      type: link
+      path: /Applications
+nsis:
+  allowToChangeInstallationDirectory: true
+  oneClick: false
+  menuCategory: true
+  include: build/installer.nsh
+  allowElevation: true
+  perMachine: true
+win:
+  signingHashAlgorithms: ['sha256']
+  certificateFile: 'build/winResources/Yuejkj2020.pfx'
+  certificatePassword: 'Yuej2020!'
+  publisherName: '深圳市越疆科技有限公司'
+  rfc3161TimeStampServer: 'http://sha256timestamp.ws.symantec.com/sha256/timestamp'
+  target: nsis
+files:
+    - from: ../build/${os}Resources/
+      to: ${os}Resources/
+    - from: ./
+      to: ./
+    - from: ../to-build
+      to: web
+    - from: ../assets
+    - to : ./
+compression: normal
+electronVersion: 6.0.9

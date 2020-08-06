@@ -1,0 +1,73 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0014)about:internet -->
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>1 前言</title>
+</HEAD>
+<body><script language="JavaScript" type="text/JavaScript">
+function syn(){
+if(parent.nav.tree){
+ if(parent.nav.tree.loaded){
+  parent.nav.tree.selectNode(0);
+ }else{
+  setTimeout("syn()",500);
+}
+  }else{
+  setTimeout("syn()",500);
+  }}
+if(parent!=self){
+  setTimeout("syn()",100);
+}else{
+  parent.location.href = "../index.htm?page=preface.html";
+}
+originalOnload = window.onload;
+if(originalOnload==null){
+window.onload = function(){parent.contentLoaded = true;};
+}else{
+window.onload = function(){originalOnload();parent.contentLoaded = true;};
+}
+</script> 
+
+DobotLink v5.1
+<br>
+<br>
+
+<p>
+注意事项：
+<ul>
+<li>有关Keyword:带有*号的为可选参数，如不传参数，将按照默认配置执行。</li>
+<li>适配Windows / MacOS系统</li>
+<li>每台上位机只能运行一个且只有一个DobotLink</li>
+<li>支持多机，支持多终端</li>
+<li>符合JsonRPC2.0传输协议</li>
+<li>采用Websocket通讯，端口9090</li>
+<li>整形，浮点型等数值如不给出将默认为0，布尔值默认为false</li>
+<li>默认日志存放路径："C:\Users\{USER}\AppData\Roaming\DobotLink\"</li>
+<li>默认传输临时文件夹："C:\Users\{USER}\dobotlink-code"</li>
+<li>驱动安装与下载：CP210 <A href="https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers" target=_blank>https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers</A></li>
+</ul>
+</p>
+<br>
+
+<p>
+里程碑：
+<ul>
+<li style="list-style-type:none">v1.0 支持插件加载，Magician控制，Microbit控制</li>
+<li style="list-style-type:none">v2.0 支持多机多终端控制，支持Arduino编译与下载</li>
+<li style="list-style-type:none">v3.0 支持最新异步动态库，合并设备至统一动态库，新增设备MagicanLite、MagicBox、M1控制</li>
+<li style="list-style-type:none">v4.0 新增检查更新，在线更新功能，插件热更新</li>
+<li style="list-style-type:none">v5.0 支持CR5协作机器人控制，SA、SR系列工业机器人控制</li>
+</ul>
+</p>
+<br>
+<br>
+<br>
+<p align=right>
+create by liuyufei 2019.11.11
+<br>
+latest revise by liuyufei 2020.05.16
+</p> 
+
+</BODY>
+</HTML>

@@ -1,0 +1,10 @@
+stages:
+  - lint
+
+lint:
+  stage: lint
+  script:
+    - yarn install:gui
+    - yarn lint:gui
+  tags:
+    - scratch

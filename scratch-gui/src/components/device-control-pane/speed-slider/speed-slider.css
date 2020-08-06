@@ -1,0 +1,71 @@
+@import '../../../css/colors.css';
+.speed-slider-warp{
+  width: 190px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: #575e75;
+}
+.speed-text{
+  margin: 0;
+  margin-right: 15px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.slider-warp{
+  width: 60%;
+  height: 8px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 5px;
+}
+.small-pieces{
+  display: inline-block; 
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%,-50%);
+  cursor:pointer;
+  z-index: 99;
+  border: 1px solid  rgb(77, 151, 255);
+}
+.slider-background{
+  width: 0;
+  height: 10px;
+  background-color: #209BFA;
+  border-radius: 5px;
+}
+.tips-warp{
+  min-width: 30px;
+  min-height: 28px;
+  background-color: pink;
+  position: absolute;
+  top: -155%;
+  left: 41%;
+  padding: 2px 5px;
+  color: #fff;
+  background-color: #303133;
+  border-radius: 5px;
+  opacity: 0; 
+  transition: opacity .3s;
+  text-align: center;
+}
+
+.tips-content{
+  margin: 0;
+}
+.tips-arrow{
+  border-width:8px;
+  border-style:solid;
+  border-color:#303133 transparent  transparent  transparent ;
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+}

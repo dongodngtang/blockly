@@ -1,0 +1,9 @@
+@import "../../css/units.css";
+@import "../../css/z-index.css";
+
+
+/* Position the language select over the language icon, and make it transparent */
+.menu-bar-menu {
+  margin-top: $menu-bar-height;
+  z-index: $z-index-menu-bar;
+}

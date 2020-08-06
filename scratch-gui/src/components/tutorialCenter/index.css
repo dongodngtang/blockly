@@ -1,0 +1,310 @@
+@import "../../css/units.css";
+@import "../../css/colors.css";
+@import "../../css/z-index.css";
+
+
+.mask{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 510;
+  background-color: #00000030;
+}
+
+.card-container {
+  position:absolute;
+  z-index: $z-index-card;
+  margin: 0.5rem 2rem;
+  height: 200px;
+  top: 35%;
+  left: 50%;
+  transform: translate(-60%,-50%);
+}
+
+.card {
+  border: 1px solid $ui-tertiary;
+  border-radius: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  z-index: 20;
+  overflow: hidden;
+  box-shadow: 0px 5px 25px 5px $ui-black-transparent;
+  align-items: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 1080px;
+  height: 628px;
+  background-color: #fff;
+}
+
+.header-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: $ui-border;
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+.title{
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  margin: auto;
+  transform: translateX(50%);
+}
+
+.remove-button{
+  cursor: pointer;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+  background-color: transparent;
+  border: none;
+}
+
+.remove-button:hover, .all-button:hover {
+  background-color: $ui-black-transparent;
+}
+.card-container .card .body{
+  width: 100%;
+  padding: 5px 10px;
+}
+.card-container .card .body .body-top{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-container .card .body .body-top .deviceImg{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container .card .body .body-top .deviceImg p{
+  margin: 5px 0 0 0;
+}
+.card-container .card .body .body-top img{
+  width: 175px;
+  height: 120px;
+}
+.card-container .card .body .body-top  .version-info-container{
+  display: flex;
+  flex: 1;
+  padding: 5px;
+}
+.card-container .card .body .body-top .version-info{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  justify-content: space-around;
+}
+.card-container .card .body .body-top .version-info p{
+  margin: 10px 0;
+}
+.card-container .card .body .body-middle{
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.tutorial-center-body{
+  width: 100%;
+  height: 100%;
+}
+
+/* product */
+.product-container{
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #FBFBFB;
+}
+.product-container .product-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 115px;
+  padding: 5px 0;
+}
+
+.product-item-active{
+  background-color: #aee2ff;
+  border-radius: 4px;
+}
+
+.product-container .product-item img{
+  height: 60px;
+}
+.product-container .product-item span {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #575E75;
+}
+
+/* tutorialContainer */
+.tutorial-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+}
+
+.tutorial-container .tutorial-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(223, 221, 221);
+  border-radius: 10px;
+  justify-content: space-between;
+}
+.tutorial-container .tutorial-item .tutorial-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  width: 180px;
+  height: 200px;
+  position: relative;
+  background-color: rgb(142, 221, 230);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.details-mask{
+  position: absolute;
+  top: 0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(174, 226, 255,.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  opacity: 0;
+  transition: all .3s linear;
+  cursor: pointer;
+}
+
+.tutorial-item:hover .details-mask{
+  opacity: 1;
+}
+
+.details-mask p{
+  margin: 0;
+  text-align: center;
+  z-index: 1;
+}
+.details-mask .detail-text{
+  padding: 0 30px;
+  font-size: 12px;
+}
+
+.tutorial-container .tutorial-item .tutorial-img img{
+  width: 180px;
+  position: absolute;
+  bottom: 0;
+}
+.tutorial-container .tutorial-item .tutorial-title{
+  width: 180px;
+  text-align: center;
+  padding: 10px 0;
+  opacity: 1;
+  transition: all .3s linear;
+}
+
+/* sidebarContainer */
+.sidebar-container{
+  position: absolute;
+  right: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 25;
+  height: 100%;
+  border: 1px solid #eee;
+  background-color: #fff;
+  box-shadow:1px 1px 5px #ddd;
+  width: 424px;
+  display: none;
+}
+.sidebar-container::-webkit-scrollbar{
+  width: 5px;
+  background-color: transparent;
+}
+.sidebar-container::-webkit-scrollbar-thumb{
+  width: 3px;
+  border-radius: 3px;
+  background-color: #CECDCE;
+} 
+.show-sidebar-container{
+  display: block;
+}
+.sidebar-head{
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.sidebar-head p{
+  margin: 0;
+}
+.sidebar-head .sidebar-head-back-icon{
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.sidebar-head .sidebar-head-back-icon img{
+  width: 20px;
+}
+.sidebar-body{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* buttonContainer */
+.button-container{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.button-container button{
+  padding: 0.6rem 0.75rem;
+  border-radius: 0.5rem;
+  background: hsla(215, 100%, 65%, 1);
+  color: white;
+  font-weight: 600;
+  font-size: 0.85rem;
+  margin: 0.25rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.button-container button:active, .open>.dropdown-toggle.button-container button{
+  background-color: #ccc;
+  border-color: #ccc;
+}

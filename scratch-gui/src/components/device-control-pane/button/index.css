@@ -1,0 +1,30 @@
+@import '../../../css/colors.css';
+.icon {
+  height: 20px;
+  width: 23px;
+}
+.outline-button {
+  height: 24px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $ui-modal-overlay;
+  border-radius: 12px;
+  transition: all .3s ease-in-out;
+}
+.outline-button:hover {
+  background: $ui-border;
+  box-shadow: 0 0 0 6px $motion-transparent;
+}
+.tooltip {
+  background-color: $extensions-primary !important;
+  border: 1px solid hsla(0, 0%, 0%, .1) !important;
+  box-shadow: 0 0 .5rem hsla(0, 0%, 0%, .25) !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+.tooltip:global(.place-bottom)::after {
+  border-bottom-color: $extensions-primary !important;
+  border-bottom-style: solid !important;
+  border-bottom-width: 6px !important;
+}

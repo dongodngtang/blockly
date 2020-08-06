@@ -1,0 +1,62 @@
+.btn-container{
+  position: absolute;
+  top: 15%;
+  right: 0;
+  z-index: 10;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: opacity 0.5s linear;
+}
+
+.hidd-btn-container{
+  opacity: 0;
+}
+
+.btn-container .tutorial-btn,.btn-container .code-btn{
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  transform: translateX(16px);
+  cursor: pointer;
+}
+
+.btn-container p {
+  margin: 0;
+  width: 64px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  background-color: #fa931f;
+  border-radius: 15px 0 0 15px;
+}
+
+.btn-container .tutorial-btn{
+  margin-bottom: 35px;
+}
+
+.btn-container .tutorial-btn p{
+  background-color: #1f9afa;
+  border-radius: 15px 0 0 15px;
+}
+
+.btn-container .tutorial-btn:hover{
+  animation: bounce-up .5s  ease-in;
+}
+.btn-container .code-btn:hover{
+  animation: bounce-up .5s  ease-in;
+}
+
+@keyframes bounce-up {
+  25% {
+    transform: translate(16px,-10px);
+  }
+  50%, 100% {
+    transform: translate(16px,0);
+  }
+  75% {
+    transform: translate(16px,-5px);
+  }
+}

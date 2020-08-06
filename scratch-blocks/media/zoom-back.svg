@@ -1,0 +1,13 @@
+<svg width="29px" height="102px" viewBox="0 0 29 102" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备" transform="translate(-8575.000000, -2409.000000)">
+            <g id="组_16" transform="translate(8548.000000, 2409.000000)">
+                <g id="编组" transform="translate(27.420001, 0.163000)">
+                    <path d="M-22,37 L51,37 C58.7319853,37 65,43.2680135 65,51 C65,58.7319865 58.7319853,65 51,65 L-22,65 C-29.7319872,65 -36,58.731986 -36,51 C-36,43.268014 -29.7319872,37 -22,37 L-22,37 Z" id="圆角矩形_2" fill="#63BBFF" transform="translate(14.499999, 51.000000) rotate(90.000000) translate(-14.499999, -51.000000) "></path>
+                    <polygon id="矩形_15" fill="#FFFFFF" transform="translate(14.079999, 34.837000) rotate(90.000000) translate(-14.079999, -34.837000) " points="13.5799988 20.837 14.5799988 20.837 14.5799988 48.837 13.5799988 48.837"></polygon>
+                    <polygon id="矩形_15_拷贝" fill="#FFFFFF" transform="translate(14.079999, 66.837000) rotate(90.000000) translate(-14.079999, -66.837000) " points="13.5799988 52.837 14.5799988 52.837 14.5799988 80.837 13.5799988 80.837"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

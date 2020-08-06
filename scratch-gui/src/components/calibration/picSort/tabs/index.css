@@ -1,0 +1,75 @@
+@import '../../../../css/colors.css';
+@import '../../../../css/units.css';
+.tabs-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+.tab-wrapper {
+  background: $ui-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background .3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+  background: #F5F5F5;
+  height: 46px;
+  width: 46px;
+  color: #3b3b3b;
+  border-bottom: 1px solid $ui-border-grey;
+  position: relative;
+}
+.tab-wrapper span {
+  font-size: 18px;
+}
+
+.tab-wrapper.first-tab {
+  border-radius: $space 0 0 0;
+}
+.tab-wrapper.tab-selected {
+  background: #E5F4FF;
+  color: $ui-border;
+}
+.add-button {
+  height: 46px;
+  width: 46px;
+  background-color: $ui-border-grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 0 $space;
+  border: none;
+  font-family: Helvetica;
+  font-size: 24px;
+  color: #3b3b3b;
+}
+.x-shadow {
+  height: 46px;
+  width: 46px;
+  opacity: 0.3;
+  background: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+}
+.x-shadow img {
+  margin: auto;
+}
+.delete-icon {
+  height: 40px;
+  width: 40px;
+  background-image: url('./delete.svg');
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.delete-icon.active {
+  background-color: #4eb2ff;
+  border-radius: $space;
+  transition: background .3s ease-in-out;
+}

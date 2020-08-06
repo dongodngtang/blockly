@@ -1,0 +1,26 @@
+@import "../../css/colors.css";
+
+.clear-btn {
+    user-select: none;
+    user-drag: none;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    font-size: 12px;
+}
+.clear-btn:active, .open>.dropdown-toggle.update-btn {
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+.clear-btn:hover {
+    background-color: $motion-light-transparent;
+}
+
+.clear-btn.is-active {
+    background-color: $motion-transparent;
+}

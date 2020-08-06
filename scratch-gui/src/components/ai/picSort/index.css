@@ -1,0 +1,76 @@
+@import '../../../css/colors.css';
+@import '../../../css/units.css';
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  justify-content: center;
+}
+.subtitle {
+  font-size: 18px;
+  color: $ui-border-grey;
+  display: flex;
+  align-items: center;
+  padding: $space;
+}
+.title .index {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  line-height: 30px;
+  margin-right: 10px;
+  border: 2px solid $ui-border-grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title .index.selected {
+  color: $ui-white;
+  background-color: $ui-border;
+  border: none;
+}
+.title .subtitle.selected {
+  color: $ui-border;
+}
+.content {
+  display: flex;
+  width: 760px;
+  border-radius: $space;
+  background-color: $ui-border;
+  padding: $space;
+  justify-content: space-around;
+  height: 439px;
+}
+.content-left {
+  width: 46px;
+}
+.content-right {
+  background: #E5F4FF;
+  width: 706px;
+  border-radius: 0 $space $space $space;
+  display: flex;
+  justify-content: center;
+}
+.between-subtitle {
+  width: 132px;
+  height: 2px;
+  display: inline-block;
+  background-image: linear-gradient(90deg, #209BFA 0%, #999999 100%);
+}
+.del-date{
+  position: absolute;
+  bottom: 80px;
+  left: 55px;
+  color: #fff;
+  text-decoration: underline;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  cursor:pointer
+}
+.del-date img{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px 2px 0;
+}

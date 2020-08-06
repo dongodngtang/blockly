@@ -1,0 +1,41 @@
+@import '../../../css/colors.css';
+.cord-container {
+  height: 24px;
+  width: 24px;
+  border: 1px solid $ui-border-grey;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.switch-joint {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  color: $text-primary;
+}
+.switch-joint span {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.switch-joint span:nth-child(1) {
+  line-height: 24px;
+}
+.switch-joint img:hover {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}
+.switch-joint button {
+  transition: all .3s ease-in-out;
+  box-shadow: none;
+}
+.switch-joint button:hover {
+  box-shadow: 0 0 0 3px $motion-transparent;
+}
+.active {
+  filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
+}
+.button-active {
+  border: 1px solid $ui-border;
+}

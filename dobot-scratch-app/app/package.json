@@ -1,0 +1,12 @@
+{
+  "name": "dobot-block-app",
+  "version": "1.6.0-alpha.7",
+  "main": "main.js",
+  "author": {
+    "name": "Dobot",
+    "url": "https://www.dobot.cc",
+    "email": "Support@dobot.cc"
+  },
+  "description": "This is Dobot Scratch Project based on Scratch",
+  "license": "MIT"
+}

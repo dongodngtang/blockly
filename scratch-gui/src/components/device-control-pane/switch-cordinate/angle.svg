@@ -1,0 +1,21 @@
+
+<svg width="18px" height="13px" viewBox="0 0 18 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="设备" transform="translate(-7525.000000, -2230.000000)">
+            <g id="坐标" transform="translate(7454.000000, 2224.000000)">
+                <g id="坐标-2">
+                    <g id="角度坐标" transform="translate(68.000000, 0.000000)">
+                        <g id="组_47" transform="translate(3.000000, 4.000000)">
+                            <path d="M0.487,3.542 L1.396,3.019 L6.645,12.083 L5.735,12.607 L0.487,3.542 Z M0.417,2.363 L3.359,4.297 L0.626,5.872 L0.417,2.363 Z" id="多边形_811_拷贝_3" fill="#999999"></path>
+                            <path d="M5.918,12.07 L16.418,12.07 L16.418,13.132 L5.918,13.132 L5.918,12.07 Z M17.482,12.598 L14.331,14.172 L14.331,11.024 L17.482,12.598 Z" id="多边形_811_拷贝_4" fill="#999999"></path>
+                            <path d="M3.718,8.28 C5.35366947,7.67039241 7.16874362,7.76524624 8.73196206,8.54202428 C10.2951805,9.31880232 11.4670011,10.7081648 11.969,12.38" id="椭圆_822" stroke="#999999"></path>
+                            <text id="R" fill="#999999" font-family="Helvetica" font-size="6" font-weight="normal">
+                                <tspan x="9.12" y="6.843">R</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

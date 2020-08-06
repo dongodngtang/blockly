@@ -1,0 +1,15 @@
+import './init';
+import './control';
+import './data';
+import './event';
+import './lists';
+import './operator';
+import './procedures';
+import './dobot/magician';
+import './dobot/magicianLite';
+import './dobot/magicianLiteFORController';
+import './dobot/controller';
+import './dobot/photoelectricSensor';
+import './dobot/slidingRail';
+import './dobot/enlightenmentKit';
+import './ai';

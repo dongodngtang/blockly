@@ -1,0 +1,46 @@
+@import '../../css/colors.css';
+@import '../../css/units.css';
+.custom-radio,
+.custom-checkbox {
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+}
+.custom-radio span {
+    background: white;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 1px solid $ui-border-grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
+}
+.custom-radio.selected span::after {
+    content: '';
+    background: $ui-border;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.custom-checkbox span{
+    background: white;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: 1px solid $ui-border-grey;
+    border-radius: $space;
+    position: relative;
+    
+}
+.custom-checkbox.selected span::after {
+    content: '';
+    background-image: url('./checkout.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+}

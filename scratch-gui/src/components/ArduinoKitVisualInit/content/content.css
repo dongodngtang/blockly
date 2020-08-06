@@ -1,0 +1,154 @@
+.guide-page {
+  margin: 0;
+}
+
+.guide-page-title {
+  font-weight: bold;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+button {
+  outline: none;
+}
+
+input {
+  outline: none;
+  width: 3rem;
+  margin-left: 0.5rem;
+}
+
+.guide-page-content {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 1rem;
+}
+.download-button {
+  color: white;
+  background: #0abd8c;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: 300ms transform ease-in-out;
+}
+.download-button:hover {
+  transform: scale(1.1);
+}
+.step-title {
+  font-weight: bold;
+  color: #5e9ec7;
+  margin-bottom: 0.5rem;
+  justify-self: flex-start;
+  width: 100%;
+  font-size: 1.1rem;
+}
+.step1-setting {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.step1-setting .step1-setting-desc {
+  margin: 1rem;
+}
+.record-button-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.record-button {
+  font-size: 1.2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  background: #0abd8c;
+  transition: 200ms all ease-in-out;
+  cursor: pointer;
+  border: none;
+  padding: 0 1rem;
+  color: white;
+  transform: translateZ(0) scale(1)
+}
+.record-button:hover {
+  transform: translateZ(0) scale(1.1);
+}
+.record-button:active {
+  background: #109292;
+  transform: translateZ(0) scale(1);
+}
+
+.step2-setting {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 1rem;
+}
+
+.step2-color-input {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 40%;
+  margin-top: 0.3rem;
+}
+
+.step2-color-input input {
+  width: 5rem;
+}
+
+.block-color {
+  height: 1rem;
+  width: 1rem;
+}
+.step3-items {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.step3-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+  justify-content: space-between;
+  flex: 1;
+}
+.step3-item2 {
+  display: flex;
+  flex: 1;
+  margin-bottom: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.step6-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.step6-inner-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.2rem;
+}
+.step6-inner-input select {
+  background: #3bbd8c;
+  color: white;
+  outline: none;
+  height: 1.5rem;
+  margin-left: 2rem;
+}
+
+.finish-button {
+  margin-top: 0.5rem;
+  align-self: center;
+}
+input {
+  margin: 0 0.5rem;
+}

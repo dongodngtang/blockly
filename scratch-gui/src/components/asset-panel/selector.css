@@ -1,0 +1,65 @@
+@import "../../css/colors.css";
+@import "../../css/units.css";
+
+.wrapper {
+    width: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: $ui-modal-overlay;
+}
+
+.new-buttons {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.75rem 0;
+    color: $motion-primary;
+    text-align: center;
+    background: none;
+}
+
+$fade-out-distance: 100px;
+
+
+.new-buttons > button + button {
+    margin-top: 0.75rem;
+}
+
+.list-area {
+    /* Must have some height (recalculated by flex-grow) in order to scroll */
+    height: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    /* Make sure there is room to scroll beyond the last tile */
+    padding-bottom: 70px;
+}
+.list-area::-webkit-scrollbar {
+    background: white;
+    width: 2px;
+}
+.list-area::-webkit-scrollbar-thumb {
+    width: 1px;
+    background: grey;
+}
+.list-item {
+    width: 4rem;
+    height: 5rem;
+    margin: 0.5rem auto;
+}
+
+
+
+.list-item.placeholder {
+    background: white;
+    filter: opacity(15%) brightness(0%);
+}
